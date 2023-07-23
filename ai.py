@@ -62,7 +62,7 @@ def takecommand():
 
 
               
-if _name=="main_":
+if  __name__=="main_":
        Wishme()
        while True: 
               query = takecommand().lower()
